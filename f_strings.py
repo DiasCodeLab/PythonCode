@@ -1,8 +1,7 @@
-'''
 
-f-strings
-
-'''
+#===================
+#f-strings
+#===================
 
 nome = 'MateusDias'
 idade = 26

@@ -1,7 +1,6 @@
-'''
+#===================
 Metodo Format
-
-'''
+#===================
 
 nome = "{nome1}, {nome2}, {nome3}"
 tipo_do_dados = print(nome.format(

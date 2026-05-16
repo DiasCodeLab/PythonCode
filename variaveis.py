@@ -1,8 +1,6 @@
-'''
-Variaveis com tipos de dados 
-
-'''
-
+#============================
+#Variaveis com tipos de dados 
+#============================
 nome = 'Mateus'
 idade = 15
 maior_de_idade = idade >= 18

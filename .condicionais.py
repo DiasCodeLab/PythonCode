@@ -1,3 +1,8 @@
+
+#=====================
+#Uso do if elif else
+#=====================
+
 disjuntor = input('digite (ligar) para ligar desligar a luz ou digite (desligar) para desligar a luz a luz: ')
 
 if disjuntor == 'ligar':
