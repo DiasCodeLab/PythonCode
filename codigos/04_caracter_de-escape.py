@@ -1,7 +1,7 @@
 
-#=============++++++
+#====================
 #caracteres de escape
-#=============++++++
+#====================
 
 print("Mateus'Dias'") #Aspas simples dentro de aspas duplas
 

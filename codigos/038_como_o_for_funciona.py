@@ -1,3 +1,7 @@
+#====================
+#Como o for funciona
+#====================
+
 dados = 'ABC'
 
 interador = iter(dados)

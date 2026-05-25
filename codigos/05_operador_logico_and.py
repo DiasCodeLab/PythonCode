@@ -1,7 +1,7 @@
 
-#=================+++++++
+#========================
 # Uso operador logico and 
-#=================+++++++
+#========================
 
 entrada_saida = input('Digite [E]Eentrar ou [S]Sair: ')
 senha = '1234'

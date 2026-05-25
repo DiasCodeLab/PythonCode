@@ -1,9 +1,14 @@
+#=============================
+#Exercicio contagem de strings
+#=============================
+
 frase = "Quem aprende a dominar a própria mente, domina qualquer desafio que a vida colocar no caminho."
+
 
 
 while True:
 
-    menu = input( 'Deseja continuar ? [S]sim [N]não: ').lower().split()
+    menu = input( 'Deseja continuar ? [S]sim [N]não: ').lower()
 
     if  menu  not in ('s','n'):
         print('Voce não digitou uma letra...')
@@ -15,7 +20,7 @@ while True:
 
     letra = input('Digite a letra que deseja procurar: ')
 
-    frase_lower = frase.lower() 
+    frase_lower = frase.lower().split() 
 
     if letra in frase_lower: 
         contagem = frase_lower.count(letra)
@@ -27,8 +32,9 @@ while True:
 
 
 
-    #com o metodo .split() separa uma frase em palavras permitindo assim contar quantas palavras tem
-    #na  frase
+    # com o metodo .split() separa uma frase em palavras permitindo
+    # assim contar quantas palavras tem em uama frase.
+    
 
     
       

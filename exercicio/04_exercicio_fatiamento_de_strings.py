@@ -1,3 +1,8 @@
+#======================
+# Fatiamento de Strings
+#======================
+
+
 nome = input('Digite um nome: ')
 idade = input('Digite sua idade: ')
 
