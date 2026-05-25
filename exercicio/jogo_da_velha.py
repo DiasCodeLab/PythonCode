@@ -1,32 +1,27 @@
 import random
 
+lista = ['mateus', 'dias']
+palavra = random.choice(lista)
 tentativas = 5
 
-lista = ['mateus', 'dias', 'onça', 'leao']
-
-sortear_nome = random.choice(lista)
-
-tracos = ['_'] * len(sortear_nome)
+designer = ['_']*len(palavra)
 
 while tentativas > 0:
+    designer_tela = ' '.join(designer)
+    print(designer_tela)
 
-    print(' '.join(tracos))
+    digito = input('digite uma letra: ')
 
-    digito = input('Digite uma letra: ').lower()
+    for i in range(len(palavra)):
+        if palavra[i] == digito:
+            designer[i] = digito
 
-    acertou = False
-
-    for i in range(len(sortear_nome)):
-
-        if sortear_nome[i] == digito:
-            tracos[i] = digito
-            acertou = True
-
-    if not acertou:
-        tentativas -= 1
-        print(f'Você errou! Restam {tentativas} tentativas.')
-
-    if '_' not in tracos:
-        print('Você ganhou!')
-        print(f'A palavra era: {sortear_nome}')
+    if digito not in palavra:
+        tentativas-=1
+        print(f'Você possui {tentativas} tentativas')
+        if tentativas == 0:
+            print(f'Voce perdeu a palavra era "{palavra}" ')
+    
+    if '_' not in designer:
+        print('voce ganhou')
         break
