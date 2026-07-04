@@ -2,10 +2,6 @@
 #Operadores condicionais
 #==========================
 
-
-# if / elif      / else
-# se / se não se / se não
-
 porta1 = True
 porta2 = True
 porta3 = True
