@@ -28,7 +28,7 @@ def dados_jogador(idade_jogador,nome_jogador):
     
     if idade_jogador < 18:
         
-        print()
+        print('Menor de 18')
         
     
     elif idade_jogador >= 18 <= 35:
